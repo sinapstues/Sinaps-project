@@ -300,7 +300,7 @@ printQuestion($id);
 
 	?>
 	<div class="commform">
-    <form method="post" action="dobavi_otgovor">
+    <form method="post" action="dobavi_otgovor.php">
 	  <input type="text" name="postedby" class="form-control" id="postedby" placeholder="Commented By:"></br>	  	
 	  <br><textarea class="form-control" name="news" id="news" cols="50" rows="5"></textarea></br>
 	  <input type="Submit" name="submit" class="btn btn-primary" id="submit" value="Enter Comments">
