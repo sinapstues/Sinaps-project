@@ -46,4 +46,8 @@ if (isset($_POST['submit'])) {
 		else {
 			mysqli_close($dbc);
 		}
- }} ?>
+
+ }else foreach ($data_miss as $cow) {
+ 	echo $cow;
+ }
+} ?>
